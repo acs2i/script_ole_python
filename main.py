@@ -41,13 +41,20 @@ IMPORT_CONFIGS = {
             ([('code', 1)], {'unique': True})
         ]
     },
-    'DIMGRIL': {
-        'collection': 'dimensionGrid',
-        'file_path': 'RDD_PREREF-05_DIMGRIL_20241001_125455.csv',
+    'BRAND': {
+        'collection': 'brand',
+        'file_path': 'RDD_PREREF-02_MRQ_20241001_122715.csv',
+        'date_fields': ['creationdate', 'modificationdate'],
+        'field_mappings': {
+            'creationdate': 'creation_date',
+            'modificationdate': 'modification_date'
+        },
+        'default_values': {
+            'creator_id': ''
+        },
         'indexes': [
             ([('code', 1)], {'unique': True})
-        ],
-        'requires_preprocessing': True
+        ]
     },
     'CLASS': {
         'collection': 'tag',
@@ -81,20 +88,13 @@ IMPORT_CONFIGS = {
         ],
         'requires_preprocessing': True
     },
-    'BRAND': {
-        'collection': 'brand',
-        'file_path': 'RDD_PREREF-02_MRQ_20241001_122715.csv',
-        'date_fields': ['creationdate', 'modificationdate'],
-        'field_mappings': {
-            'creationdate': 'creation_date',
-            'modificationdate': 'modification_date'
-        },
-        'default_values': {
-            'creator_id': ''
-        },
+    'DIMGRIL': {
+        'collection': 'dimension_grid',
+        'file_path': 'RDD_PREREF-05_DIMGRIL_20241001_125455.csv',
         'indexes': [
             ([('code', 1)], {'unique': True})
-        ]
+        ],
+        'requires_preprocessing': True
     },
     'SUPPLIER': {
         'collection': 'supplier',
@@ -563,7 +563,7 @@ class MongoImporter:
             self.connect()
             
             # Import des données de référence
-            basic_configs = ['CLASS', 'COL', 'DIMENSION', 'DIMGRIL', 'BRAND', 'SUPPLIER']
+            basic_configs = ['COL', 'BRAND', 'CLASS', 'DIMENSION', 'DIMGRIL', 'SUPPLIER']
             for config_name in basic_configs:
                 self.logger.info(f"Starting import of {config_name}")
                 self.process_basic_import(config_name)
