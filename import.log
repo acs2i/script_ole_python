@@ -1,0 +1,322 @@
+2024-11-05 11:02:28,041 - INFO - Connected to MongoDB
+2024-11-05 11:02:28,041 - INFO - Processing CLASS...
+2024-11-05 11:02:28,229 - INFO - Processed 2456 records for CLASS
+2024-11-05 11:02:28,229 - INFO - CLASS import completed: 2456 records processed
+2024-11-05 11:02:28,244 - INFO - Processing COL...
+2024-11-05 11:02:28,260 - INFO - Processed 131 records for COL
+2024-11-05 11:02:28,260 - INFO - COL import completed: 131 records processed
+2024-11-05 11:02:28,260 - INFO - Processing DIMENSION...
+2024-11-05 11:02:31,497 - INFO - Processed 5000 records for DIMENSION
+2024-11-05 11:02:31,902 - INFO - Processed 5614 records for DIMENSION
+2024-11-05 11:02:31,902 - INFO - DIMENSION import completed: 5614 records processed
+2024-11-05 11:02:31,902 - INFO - Processing DIMGRIL...
+2024-11-05 11:02:31,934 - INFO - Processed 53 records for DIMGRIL
+2024-11-05 11:02:31,934 - INFO - DIMGRIL import completed: 53 records processed
+2024-11-05 11:02:31,934 - INFO - Processing BRAND...
+2024-11-05 11:02:32,185 - INFO - Processed 4302 records for BRAND
+2024-11-05 11:02:32,185 - INFO - BRAND import completed: 4302 records processed
+2024-11-05 11:02:32,185 - INFO - Processing SUPPLIER...
+2024-11-05 11:02:32,233 - ERROR - Import failed: Error tokenizing data. C error: Expected 21 fields in line 927, saw 23
+
+2024-11-05 11:02:32,249 - INFO - Disconnected from MongoDB
+2024-11-05 11:02:32,249 - ERROR - Failed to run import: Error tokenizing data. C error: Expected 21 fields in line 927, saw 23
+
+2024-11-05 11:08:40,835 - INFO - Connected to MongoDB
+2024-11-05 11:08:40,835 - INFO - Starting import of CLASS
+2024-11-05 11:08:40,835 - INFO - Processing CLASS...
+2024-11-05 11:08:40,899 - INFO - Detected 6 columns in header
+2024-11-05 11:08:41,009 - INFO - Processed 2456 records for CLASS (Skipped: 0)
+2024-11-05 11:08:41,009 - INFO - CLASS completed: 2456 processed, 0 skipped
+2024-11-05 11:08:41,009 - INFO - Starting import of COL
+2024-11-05 11:08:41,009 - INFO - Processing COL...
+2024-11-05 11:08:41,009 - INFO - Detected 5 columns in header
+2024-11-05 11:08:41,025 - INFO - Processed 131 records for COL (Skipped: 0)
+2024-11-05 11:08:41,025 - INFO - COL completed: 131 processed, 0 skipped
+2024-11-05 11:08:41,025 - INFO - Starting import of DIMENSION
+2024-11-05 11:08:41,025 - INFO - Processing DIMENSION...
+2024-11-05 11:08:41,104 - INFO - Detected 6 columns in header
+2024-11-05 11:08:44,147 - INFO - Processed 5000 records for DIMENSION (Skipped: 0)
+2024-11-05 11:08:44,509 - INFO - Processed 5614 records for DIMENSION (Skipped: 0)
+2024-11-05 11:08:44,524 - INFO - DIMENSION completed: 5614 processed, 0 skipped
+2024-11-05 11:08:44,534 - INFO - Starting import of DIMGRIL
+2024-11-05 11:08:44,534 - INFO - Processing DIMGRIL...
+2024-11-05 11:08:44,540 - INFO - Detected 4 columns in header
+2024-11-05 11:08:44,557 - INFO - Processed 53 records for DIMGRIL (Skipped: 0)
+2024-11-05 11:08:44,557 - INFO - DIMGRIL completed: 53 processed, 0 skipped
+2024-11-05 11:08:44,557 - INFO - Starting import of BRAND
+2024-11-05 11:08:44,557 - INFO - Processing BRAND...
+2024-11-05 11:08:44,605 - INFO - Detected 5 columns in header
+2024-11-05 11:08:44,778 - INFO - Processed 4302 records for BRAND (Skipped: 0)
+2024-11-05 11:08:44,778 - INFO - BRAND completed: 4302 processed, 0 skipped
+2024-11-05 11:08:44,778 - INFO - Starting import of SUPPLIER
+2024-11-05 11:08:44,778 - INFO - Processing SUPPLIER...
+2024-11-05 11:08:44,778 - INFO - Detected 21 columns in header
+2024-11-05 11:08:44,993 - INFO - Processed 3283 records for SUPPLIER (Skipped: 0)
+2024-11-05 11:08:44,999 - INFO - SUPPLIER completed: 3283 processed, 0 skipped
+2024-11-05 11:08:44,999 - INFO - Loading reference data...
+2024-11-05 11:08:45,030 - INFO - Reference data loaded
+2024-11-05 11:08:45,030 - INFO - Starting product import
+2024-11-05 11:08:46,201 - INFO - Detected 41 columns in header
+2024-11-05 11:08:46,232 - ERROR - Failed to process PRODUCT: 'charmap' codec can't decode byte 0x8f in position 4253: character maps to <undefined>
+2024-11-05 11:08:46,232 - ERROR - Import failed: 'charmap' codec can't decode byte 0x8f in position 4253: character maps to <undefined>
+2024-11-05 11:08:46,246 - INFO - Disconnected from MongoDB
+2024-11-05 11:08:46,246 - ERROR - Failed to run import: 'charmap' codec can't decode byte 0x8f in position 4253: character maps to <undefined>
+2024-11-05 11:12:42,579 - INFO - Connected to MongoDB
+2024-11-05 11:12:42,579 - INFO - Starting import of CLASS
+2024-11-05 11:12:42,579 - INFO - Processing CLASS...
+2024-11-05 11:12:42,597 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:42,597 - INFO - Detected 6 columns in header
+2024-11-05 11:12:42,707 - INFO - Processed 2456 records for CLASS (Skipped: 0)
+2024-11-05 11:12:42,707 - INFO - CLASS completed: 2456 processed, 0 skipped
+2024-11-05 11:12:42,707 - INFO - Starting import of COL
+2024-11-05 11:12:42,707 - INFO - Processing COL...
+2024-11-05 11:12:42,716 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:42,716 - INFO - Detected 5 columns in header
+2024-11-05 11:12:42,723 - INFO - Processed 131 records for COL (Skipped: 0)
+2024-11-05 11:12:42,723 - INFO - COL completed: 131 processed, 0 skipped
+2024-11-05 11:12:42,723 - INFO - Starting import of DIMENSION
+2024-11-05 11:12:42,723 - INFO - Processing DIMENSION...
+2024-11-05 11:12:42,787 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:42,787 - INFO - Detected 6 columns in header
+2024-11-05 11:12:45,545 - INFO - Processed 5000 records for DIMENSION (Skipped: 0)
+2024-11-05 11:12:45,893 - INFO - Processed 5614 records for DIMENSION (Skipped: 0)
+2024-11-05 11:12:45,893 - INFO - DIMENSION completed: 5614 processed, 0 skipped
+2024-11-05 11:12:45,893 - INFO - Starting import of DIMGRIL
+2024-11-05 11:12:45,893 - INFO - Processing DIMGRIL...
+2024-11-05 11:12:45,893 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:45,893 - INFO - Detected 4 columns in header
+2024-11-05 11:12:45,924 - INFO - Processed 53 records for DIMGRIL (Skipped: 0)
+2024-11-05 11:12:45,924 - INFO - DIMGRIL completed: 53 processed, 0 skipped
+2024-11-05 11:12:45,924 - INFO - Starting import of BRAND
+2024-11-05 11:12:45,924 - INFO - Processing BRAND...
+2024-11-05 11:12:45,989 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:45,989 - INFO - Detected 5 columns in header
+2024-11-05 11:12:46,146 - INFO - Processed 4302 records for BRAND (Skipped: 0)
+2024-11-05 11:12:46,159 - INFO - BRAND completed: 4302 processed, 0 skipped
+2024-11-05 11:12:46,162 - INFO - Starting import of SUPPLIER
+2024-11-05 11:12:46,162 - INFO - Processing SUPPLIER...
+2024-11-05 11:12:46,210 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:46,210 - INFO - Detected 21 columns in header
+2024-11-05 11:12:46,400 - INFO - Processed 3283 records for SUPPLIER (Skipped: 0)
+2024-11-05 11:12:46,414 - INFO - SUPPLIER completed: 3283 processed, 0 skipped
+2024-11-05 11:12:46,414 - INFO - Loading reference data...
+2024-11-05 11:12:46,447 - INFO - Reference data loaded
+2024-11-05 11:12:46,447 - INFO - Starting product import
+2024-11-05 11:12:46,525 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:12:46,525 - INFO - Detected 41 columns in header
+2024-11-05 11:13:15,014 - INFO - Products: 282519 processed, 0 skipped
+2024-11-05 11:13:15,014 - INFO - Starting UVC import
+2024-11-05 11:13:15,706 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:13:15,706 - INFO - Detected 40 columns in header
+2024-11-05 11:20:07,634 - INFO - UVCs: 1251876 processed, 6203 skipped
+2024-11-05 11:20:07,634 - INFO - Updating product references...
+2024-11-05 11:20:34,011 - INFO - Updated 282519/282519 products
+2024-11-05 11:20:34,132 - INFO - Import completed successfully
+2024-11-05 11:20:34,134 - INFO - Disconnected from MongoDB
+2024-11-05 11:26:58,885 - INFO - Connected to MongoDB
+2024-11-05 11:26:58,885 - INFO - Starting import of CLASS
+2024-11-05 11:26:58,885 - INFO - Processing CLASS...
+2024-11-05 11:26:58,917 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:26:58,917 - INFO - Detected 6 columns in header
+2024-11-05 11:26:59,027 - INFO - Processed 2456 records for CLASS (Skipped: 0)
+2024-11-05 11:26:59,027 - INFO - CLASS completed: 2456 processed, 0 skipped
+2024-11-05 11:26:59,027 - INFO - Starting import of COL
+2024-11-05 11:26:59,027 - INFO - Processing COL...
+2024-11-05 11:26:59,027 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:26:59,027 - INFO - Detected 5 columns in header
+2024-11-05 11:26:59,044 - INFO - Processed 131 records for COL (Skipped: 0)
+2024-11-05 11:26:59,044 - INFO - COL completed: 131 processed, 0 skipped
+2024-11-05 11:26:59,044 - INFO - Starting import of DIMENSION
+2024-11-05 11:26:59,044 - INFO - Processing DIMENSION...
+2024-11-05 11:26:59,106 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:26:59,106 - INFO - Detected 6 columns in header
+2024-11-05 11:27:01,843 - INFO - Processed 5000 records for DIMENSION (Skipped: 0)
+2024-11-05 11:27:02,204 - INFO - Processed 5614 records for DIMENSION (Skipped: 0)
+2024-11-05 11:27:02,204 - INFO - DIMENSION completed: 5614 processed, 0 skipped
+2024-11-05 11:27:02,204 - INFO - Starting import of DIMGRIL
+2024-11-05 11:27:02,204 - INFO - Processing DIMGRIL...
+2024-11-05 11:27:02,204 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:27:02,204 - INFO - Detected 4 columns in header
+2024-11-05 11:27:02,220 - INFO - Processed 53 records for DIMGRIL (Skipped: 0)
+2024-11-05 11:27:02,220 - INFO - DIMGRIL completed: 53 processed, 0 skipped
+2024-11-05 11:27:02,220 - INFO - Starting import of BRAND
+2024-11-05 11:27:02,220 - INFO - Processing BRAND...
+2024-11-05 11:27:02,283 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:27:02,283 - INFO - Detected 5 columns in header
+2024-11-05 11:27:02,462 - INFO - Processed 4302 records for BRAND (Skipped: 0)
+2024-11-05 11:27:02,462 - INFO - BRAND completed: 4302 processed, 0 skipped
+2024-11-05 11:27:02,462 - INFO - Starting import of SUPPLIER
+2024-11-05 11:27:02,462 - INFO - Processing SUPPLIER...
+2024-11-05 11:27:02,504 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:27:02,517 - INFO - Detected 21 columns in header
+2024-11-05 11:27:02,709 - INFO - Processed 3283 records for SUPPLIER (Skipped: 0)
+2024-11-05 11:27:02,725 - INFO - SUPPLIER completed: 3283 processed, 0 skipped
+2024-11-05 11:27:02,725 - INFO - Loading reference data...
+2024-11-05 11:27:02,757 - INFO - Reference data loaded
+2024-11-05 11:27:02,762 - INFO - Starting product import
+2024-11-05 11:27:05,662 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:27:05,662 - INFO - Detected 41 columns in header
+2024-11-05 11:27:05,709 - ERROR - Error processing chunk 0: name 'safe_int_convert' is not defined
+2024-11-05 11:27:05,741 - ERROR - Error processing chunk 1: name 'safe_int_convert' is not defined
+2024-11-05 11:27:05,788 - ERROR - Error processing chunk 2: name 'safe_int_convert' is not defined
+2024-11-05 11:27:05,835 - ERROR - Error processing chunk 3: name 'safe_int_convert' is not defined
+2024-11-05 11:27:05,874 - ERROR - Error processing chunk 4: name 'safe_int_convert' is not defined
+2024-11-05 11:27:05,913 - ERROR - Error processing chunk 5: name 'safe_int_convert' is not defined
+2024-11-05 11:27:05,961 - ERROR - Error processing chunk 6: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,024 - ERROR - Error processing chunk 7: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,075 - ERROR - Error processing chunk 8: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,134 - ERROR - Error processing chunk 9: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,182 - ERROR - Error processing chunk 10: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,229 - ERROR - Error processing chunk 11: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,276 - ERROR - Error processing chunk 12: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,339 - ERROR - Error processing chunk 13: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,418 - ERROR - Error processing chunk 14: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,481 - ERROR - Error processing chunk 15: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,528 - ERROR - Error processing chunk 16: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,607 - ERROR - Error processing chunk 17: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,653 - ERROR - Error processing chunk 18: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,685 - ERROR - Error processing chunk 19: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,763 - ERROR - Error processing chunk 20: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,827 - ERROR - Error processing chunk 21: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,890 - ERROR - Error processing chunk 22: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,937 - ERROR - Error processing chunk 23: name 'safe_int_convert' is not defined
+2024-11-05 11:27:06,984 - ERROR - Error processing chunk 24: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,031 - ERROR - Error processing chunk 25: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,079 - ERROR - Error processing chunk 26: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,141 - ERROR - Error processing chunk 27: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,188 - ERROR - Error processing chunk 28: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,235 - ERROR - Error processing chunk 29: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,276 - ERROR - Error processing chunk 30: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,314 - ERROR - Error processing chunk 31: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,360 - ERROR - Error processing chunk 32: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,408 - ERROR - Error processing chunk 33: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,477 - ERROR - Error processing chunk 34: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,549 - ERROR - Error processing chunk 35: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,611 - ERROR - Error processing chunk 36: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,677 - ERROR - Error processing chunk 37: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,737 - ERROR - Error processing chunk 38: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,785 - ERROR - Error processing chunk 39: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,847 - ERROR - Error processing chunk 40: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,925 - ERROR - Error processing chunk 41: name 'safe_int_convert' is not defined
+2024-11-05 11:27:07,989 - ERROR - Error processing chunk 42: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,070 - ERROR - Error processing chunk 43: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,130 - ERROR - Error processing chunk 44: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,178 - ERROR - Error processing chunk 45: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,224 - ERROR - Error processing chunk 46: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,278 - ERROR - Error processing chunk 47: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,318 - ERROR - Error processing chunk 48: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,365 - ERROR - Error processing chunk 49: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,429 - ERROR - Error processing chunk 50: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,479 - ERROR - Error processing chunk 51: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,554 - ERROR - Error processing chunk 52: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,617 - ERROR - Error processing chunk 53: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,664 - ERROR - Error processing chunk 54: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,711 - ERROR - Error processing chunk 55: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,742 - ERROR - Error processing chunk 56: name 'safe_int_convert' is not defined
+2024-11-05 11:27:08,742 - INFO - Products: 0 processed, 282519 skipped
+2024-11-05 11:27:08,742 - INFO - Starting UVC import
+2024-11-05 11:27:11,256 - INFO - Disconnected from MongoDB
+2024-11-05 11:30:24,930 - INFO - Connected to MongoDB
+2024-11-05 11:30:24,930 - INFO - Starting import of CLASS
+2024-11-05 11:30:24,930 - INFO - Processing CLASS...
+2024-11-05 11:30:24,962 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:24,962 - INFO - Detected 6 columns in header
+2024-11-05 11:30:25,056 - INFO - Processed 2456 records for CLASS (Skipped: 0)
+2024-11-05 11:30:25,071 - INFO - CLASS completed: 2456 processed, 0 skipped
+2024-11-05 11:30:25,071 - INFO - Starting import of COL
+2024-11-05 11:30:25,071 - INFO - Processing COL...
+2024-11-05 11:30:25,071 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:25,071 - INFO - Detected 5 columns in header
+2024-11-05 11:30:25,080 - INFO - Processed 131 records for COL (Skipped: 0)
+2024-11-05 11:30:25,080 - INFO - COL completed: 131 processed, 0 skipped
+2024-11-05 11:30:25,080 - INFO - Starting import of DIMENSION
+2024-11-05 11:30:25,080 - INFO - Processing DIMENSION...
+2024-11-05 11:30:25,134 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:25,134 - INFO - Detected 6 columns in header
+2024-11-05 11:30:28,185 - INFO - Processed 5000 records for DIMENSION (Skipped: 0)
+2024-11-05 11:30:28,546 - INFO - Processed 5614 records for DIMENSION (Skipped: 0)
+2024-11-05 11:30:28,546 - INFO - DIMENSION completed: 5614 processed, 0 skipped
+2024-11-05 11:30:28,546 - INFO - Starting import of DIMGRIL
+2024-11-05 11:30:28,546 - INFO - Processing DIMGRIL...
+2024-11-05 11:30:28,546 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:28,562 - INFO - Detected 4 columns in header
+2024-11-05 11:30:28,577 - INFO - Processed 53 records for DIMGRIL (Skipped: 0)
+2024-11-05 11:30:28,577 - INFO - DIMGRIL completed: 53 processed, 0 skipped
+2024-11-05 11:30:28,577 - INFO - Starting import of BRAND
+2024-11-05 11:30:28,577 - INFO - Processing BRAND...
+2024-11-05 11:30:28,625 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:28,625 - INFO - Detected 5 columns in header
+2024-11-05 11:30:28,785 - INFO - Processed 4302 records for BRAND (Skipped: 0)
+2024-11-05 11:30:28,785 - INFO - BRAND completed: 4302 processed, 0 skipped
+2024-11-05 11:30:28,785 - INFO - Starting import of SUPPLIER
+2024-11-05 11:30:28,785 - INFO - Processing SUPPLIER...
+2024-11-05 11:30:28,813 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:28,813 - INFO - Detected 21 columns in header
+2024-11-05 11:30:29,048 - INFO - Processed 3283 records for SUPPLIER (Skipped: 0)
+2024-11-05 11:30:29,049 - INFO - SUPPLIER completed: 3283 processed, 0 skipped
+2024-11-05 11:30:29,049 - INFO - Loading reference data...
+2024-11-05 11:30:29,080 - INFO - Reference data loaded
+2024-11-05 11:30:29,086 - INFO - Starting product import
+2024-11-05 11:30:29,127 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:30:29,127 - INFO - Detected 41 columns in header
+2024-11-05 11:30:59,998 - INFO - Products: 282519 processed, 0 skipped
+2024-11-05 11:30:59,998 - INFO - Starting UVC import
+2024-11-05 11:31:00,395 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:31:00,395 - INFO - Detected 40 columns in header
+2024-11-05 11:37:01,067 - INFO - UVCs: 1251876 processed, 6203 skipped
+2024-11-05 11:37:01,067 - INFO - Updating product references...
+2024-11-05 11:37:26,890 - INFO - Updated 282519/282519 products
+2024-11-05 11:37:26,984 - INFO - Import completed successfully
+2024-11-05 11:37:26,984 - INFO - Disconnected from MongoDB
+2024-11-05 11:46:42,710 - INFO - Connected to MongoDB
+2024-11-05 11:46:42,710 - INFO - Starting import of CLASS
+2024-11-05 11:46:42,710 - INFO - Processing CLASS...
+2024-11-05 11:46:42,743 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:42,759 - INFO - Detected 6 columns in header
+2024-11-05 11:46:42,924 - INFO - Processed 2456 records for CLASS (Skipped: 0)
+2024-11-05 11:46:42,924 - INFO - CLASS completed: 2456 processed, 0 skipped
+2024-11-05 11:46:42,924 - INFO - Starting import of COL
+2024-11-05 11:46:42,924 - INFO - Processing COL...
+2024-11-05 11:46:42,924 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:42,934 - INFO - Detected 5 columns in header
+2024-11-05 11:46:42,950 - INFO - Processed 131 records for COL (Skipped: 0)
+2024-11-05 11:46:42,955 - INFO - COL completed: 131 processed, 0 skipped
+2024-11-05 11:46:42,955 - INFO - Starting import of DIMENSION
+2024-11-05 11:46:42,955 - INFO - Processing DIMENSION...
+2024-11-05 11:46:43,014 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:43,014 - INFO - Detected 6 columns in header
+2024-11-05 11:46:47,832 - INFO - Processed 5000 records for DIMENSION (Skipped: 0)
+2024-11-05 11:46:48,533 - INFO - Processed 5614 records for DIMENSION (Skipped: 0)
+2024-11-05 11:46:48,533 - INFO - DIMENSION completed: 5614 processed, 0 skipped
+2024-11-05 11:46:48,533 - INFO - Starting import of DIMGRIL
+2024-11-05 11:46:48,533 - INFO - Processing DIMGRIL...
+2024-11-05 11:46:48,533 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:48,541 - INFO - Detected 4 columns in header
+2024-11-05 11:46:48,604 - INFO - Processed 53 records for DIMGRIL (Skipped: 0)
+2024-11-05 11:46:48,604 - INFO - DIMGRIL completed: 53 processed, 0 skipped
+2024-11-05 11:46:48,604 - INFO - Starting import of BRAND
+2024-11-05 11:46:48,604 - INFO - Processing BRAND...
+2024-11-05 11:46:48,638 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:48,652 - INFO - Detected 5 columns in header
+2024-11-05 11:46:48,936 - INFO - Processed 4302 records for BRAND (Skipped: 0)
+2024-11-05 11:46:48,936 - INFO - BRAND completed: 4302 processed, 0 skipped
+2024-11-05 11:46:48,952 - INFO - Starting import of SUPPLIER
+2024-11-05 11:46:48,952 - INFO - Processing SUPPLIER...
+2024-11-05 11:46:48,983 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:48,999 - INFO - Detected 21 columns in header
+2024-11-05 11:46:49,329 - INFO - Processed 3283 records for SUPPLIER (Skipped: 0)
+2024-11-05 11:46:49,335 - INFO - SUPPLIER completed: 3283 processed, 0 skipped
+2024-11-05 11:46:49,335 - INFO - Loading reference data...
+2024-11-05 11:46:49,378 - INFO - Reference data loaded
+2024-11-05 11:46:49,378 - INFO - Starting product import
+2024-11-05 11:46:52,297 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:46:52,297 - INFO - Detected 41 columns in header
+2024-11-05 11:47:21,289 - INFO - Products: 282519 processed, 0 skipped
+2024-11-05 11:47:21,289 - INFO - Starting UVC import
+2024-11-05 11:47:34,845 - INFO - Trying to read with utf-8 encoding...
+2024-11-05 11:47:34,846 - INFO - Detected 40 columns in header
+2024-11-05 11:53:22,839 - INFO - UVCs: 1251876 processed, 6203 skipped
+2024-11-05 11:53:22,839 - INFO - Updating product references...
+2024-11-05 11:53:47,588 - INFO - Updated 282519/282519 products
+2024-11-05 11:53:47,706 - INFO - Import completed successfully
+2024-11-05 11:53:47,714 - INFO - Disconnected from MongoDB
